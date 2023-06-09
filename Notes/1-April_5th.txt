@@ -1,0 +1,6 @@
+OOPS - class, object, inheritance, interface, abstract,encapsulaing
+----------------
+Access modifier - public , protected, private, default
+variable set, get - Method, Contructor
+
+constructor - 2 types - default, parameterized

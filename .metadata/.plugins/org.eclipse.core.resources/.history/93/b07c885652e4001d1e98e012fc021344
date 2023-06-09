@@ -1,0 +1,15 @@
+package com.generic;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/sum")
+public class SumServlet extends HttpServlet {
+
+	public void doPost(HttpServletRequest req, HttpServletResponse resp) {
+
+	}
+
+}

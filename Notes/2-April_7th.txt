@@ -1,0 +1,25 @@
+inheritance
+interface
+----------------------
+types of application
+----------------------------------
+Desktop application - calcuator , antiviraus - swing , javafx 
+
+Web application - fb.com , google.com - servlet, jsp , Spring framwork  , MVC, Spring Rest 
+	              Db connect - JDBC Api , ORM tool - Hibernate, EJB , Data JPA
+
+Distributed application - Spring Rest 
+android - java , kotlin
+
+
+school system -
+-------------------------
+register ,login (email,psw)- java spring rest - python - rest api
+face scanner -login - python - rest api
+
+myApp - register - adhar authentication - 456353532  -  https://www.adhar.com/adharnum="?" - name or wrong
+
+45634523452 - gov db - rest api- java, python, ruby, go - https://www.adhar.com/adharnum="434332"
+
+
+

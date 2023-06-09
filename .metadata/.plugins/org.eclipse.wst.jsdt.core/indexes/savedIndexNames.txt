@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\Youtube\Class\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+925018026.index
+1254477612.index
+925018026.index
+4215017286.index
+315266858.index
+2037884083.index

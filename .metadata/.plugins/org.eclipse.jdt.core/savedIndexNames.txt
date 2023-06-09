@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\Youtube\Class\.metadata\.plugins\org.eclipse.jdt.core
+315266858.index
+3413725848.index
+1141703659.index
+1254477612.index
+2037884083.index

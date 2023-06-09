@@ -1,0 +1,10 @@
+package com.generic;
+
+import javax.servlet.http.HttpServlet;
+
+public class EmpServlet extends HttpServlet {
+
+	
+	
+	
+}
