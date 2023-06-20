@@ -6,6 +6,7 @@ import java.io.PrintWriter;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -28,7 +29,13 @@ public class LoginServlet extends HttpServlet {
 
 		if (defaultEmail.equals(email) && defaultPassword.equals(password)) {
 			// System.out.println("User Details correct.");
-			req.setAttribute("userEmail", email);
+			//req.setAttribute("userEmail", email);
+			
+			Cookie ck=new Cookie("userEmail", defaultEmail);
+			ck.setPath("/");
+			resp.addCookie(ck);
+			
+			
 			RequestDispatcher rd = req.getRequestDispatcher("/welcome");
 			rd.forward(req, resp);
 

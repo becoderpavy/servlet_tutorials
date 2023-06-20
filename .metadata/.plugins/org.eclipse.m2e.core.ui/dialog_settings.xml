@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Youtube\Class\2_Creating_Servlet\src\main\webapp\WEB-INF\web.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -31,8 +32,7 @@
 			<item value="com.becoder"/>
 		</list>
 		<list key="artifactId">
-			<item value="2_Creating_Servlet"/>
-			<item value="01_OOPS"/>
+			<item value="3_RequestDispatch_Example"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
