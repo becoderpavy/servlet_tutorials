@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\Youtube\Class\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Youtube\Class\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\3_RequestDispatch_Example" path="/3_RequestDispatch_Example" reloadable="true" source="org.eclipse.jst.j2ee.server:3_RequestDispatch_Example"/></Host>
+      <Context docBase="D:\Youtube\Class\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Youtube\Class\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\3_RequestDispatch_Example" path="/3_RequestDispatch_Example" reloadable="true" source="org.eclipse.jst.j2ee.server:3_RequestDispatch_Example"/><Context docBase="D:\Youtube\Class\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\04_Session_Example" path="/04_Session_Example" reloadable="true" source="org.eclipse.jst.j2ee.server:04_Session_Example"/></Host>
     </Engine>
   </Service>
 </Server>

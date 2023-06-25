@@ -1,42 +1,8 @@
-package com.lamda;
+package com.predicate_examp;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
-
-class user {
-	private String name;
-
-	private int age;
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-
-	public user(String name, int age) {
-		super();
-		this.name = name;
-		this.age = age;
-	}
-
-	@Override
-	public String toString() {
-		return "user [name=" + name + ", age=" + age + "]";
-	}
-
-}
 
 public class Prediecter_Example {
 
@@ -45,7 +11,7 @@ public class Prediecter_Example {
 //		System.out.println(p.test("Pabitra"));
 
 		// Q2- print name start with A
-		
+
 		/*
 		 * String[] names = { "Kajal", "Anuskha", "Anupama", "Surya" };
 		 * 
@@ -56,16 +22,15 @@ public class Prediecter_Example {
 
 		// Q3- print person name who are eligilble for vote
 
-		List<user> asList = Arrays.asList(new user("Becoder", 14), new user("Dipu", 19));
+		List<User> asList = Arrays.asList(new User("Becoder", 14), new User("Dipu", 19));
 
-		Predicate<user> p = (u) -> u.getAge() > 18;
+		Predicate<User> p = (u) -> u.getAge() > 18;
 
-		for (user u : asList) {
+		for (User u : asList) {
 			if (p.test(u)) {
 				System.out.println(u);
 			}
 		}
-		p.
 
 	}
 
