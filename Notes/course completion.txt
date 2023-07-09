@@ -1,0 +1,20 @@
+1- Servlet
+2-Types of creating servlet
+3- HttpServlet
+4- GenericServlet
+5-Welcomefile list
+6- @WebServlet
+8- session
+9-cookies
+10-url rewrtting
+11- hidden form field
+12- register page
+13- login logout
+14- page security
+15- filter - pending
+
+
+--------------------
+JSP
+-------------
+

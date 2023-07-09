@@ -27,11 +27,15 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.becoder"/>
+			<item value="com.becoder._Session_Example"/>
 		</list>
 		<list key="groupId">
 			<item value="com.becoder"/>
 		</list>
 		<list key="artifactId">
+			<item value="6_Jsp_Introduction"/>
+			<item value="5_URL_Field_Example"/>
+			<item value="04_Session_Example"/>
 			<item value="3_RequestDispatch_Example"/>
 		</list>
 		<list key="projectNameTemplate">
